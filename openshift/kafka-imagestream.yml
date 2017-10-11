@@ -12,6 +12,12 @@ spec:
       kind: DockerImage
       name: confluentinc/cp-kafka:3.3.0
     importPolicy: {}
+    name: "3.3.0"
+  - annotations: null
+    from:
+      kind: ImageStreamTag
+      name: "3.3.0"
+    importPolicy: {}
     name: "3.3"
   - annotations: null
     from:
