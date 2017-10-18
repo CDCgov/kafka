@@ -132,7 +132,7 @@ parameters:
   displayName: Memory Limit
   description: Maximum amount of memory the container can use.
   required: true
-  value: 512Mi
+  value: 1Gi
 - name: NAMESPACE
   displayName: Namespace
   description: The OpenShift Namespace where the ImageStream resides.
