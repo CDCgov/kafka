@@ -18,7 +18,7 @@ spec:
       kind: ImageStreamTag
       name: "3.3.0"
     importPolicy: {}
-    name: "3.3"
+    name: "3.3.x"
   - annotations: null
     from:
       kind: DockerImage
