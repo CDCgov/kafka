@@ -48,7 +48,7 @@ objects:
     selector:
       name: '${KAFKA_SERVICE_NAME}'
     strategy:
-      tpe: Recreate
+      type: Recreate
     template:
       metadata:
         creationTimestamp: null
